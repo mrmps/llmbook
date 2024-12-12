@@ -81,7 +81,7 @@ const Book: React.FC<BookProps> = ({
                     />
                     {/* Cover content */}
                     <div className="flex flex-col justify-between h-full p-4 ml-[12%]">
-                      <h1 className="text-sm font-semibold leading-tight" style={{ color: textColor }}>
+                      <h1 className="text-md font-semibold leading-tight" style={{ color: textColor }}>
                         {title}
                       </h1>
                       <div className="text-xs opacity-70" style={{ color: textColor }}>

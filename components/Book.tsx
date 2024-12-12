@@ -81,10 +81,24 @@ const Book: React.FC<BookProps> = ({
                     />
                     {/* Cover content */}
                     <div className="flex flex-col justify-between h-full p-4 ml-[12%]">
-                      <h1 className="text-md font-semibold leading-tight" style={{ color: textColor }}>
+                      <h1 
+                        className="text-md font-semibold leading-tight"
+                        style={{ 
+                          color: textColor,
+                          textShadow: `0.5px 0.5px 0px rgba(255,255,255,0.15),
+                                     -0.5px -0.5px 0px rgba(0,0,0,0.2)`
+                        }}
+                      >
                         {title}
                       </h1>
-                      <div className="text-xs opacity-70" style={{ color: textColor }}>
+                      <div 
+                        className="text-xs opacity-70"
+                        style={{ 
+                          color: textColor,
+                          textShadow: `0.5px 0.5px 0px rgba(255,255,255,0.15),
+                                     -0.5px -0.5px 0px rgba(0,0,0,0.2)`
+                        }}
+                      >
                         {author}
                       </div>
                     </div>

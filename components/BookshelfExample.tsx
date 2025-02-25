@@ -8,7 +8,7 @@ const books = [
     color: "#2F4F4F", 
     textColor: "#FFFFFF",
     active: true,
-    url: "/late-chunking"
+    url: "https://kx.com/resources/ebook/late-chunking-vs-contextual-retrieval/"
   },
   {
     title: "The Ultimate Guide to Rerankers",
@@ -16,7 +16,7 @@ const books = [
     color: "#4A766E",
     textColor: "#FFFFFF",
     active: true,
-    url: "/ultimate-guide-rerankers"
+    url: "https://kx.com/resources/ebook/the-ultimate-guide-to-re-ranking/"
   },
   {
     title: "Choosing an Embedding Model",
@@ -24,7 +24,7 @@ const books = [
     color: "#967969",
     textColor: "#FFFFFF",
     active: true,
-    url: "/choosing-embedding-model"
+    url: "https://kx.com/resources/ebook/the-ultimate-guide-to-choosing-embedding-models-for-ai-applications/"
   },
   {
     title: "Efficient Text Chunking",

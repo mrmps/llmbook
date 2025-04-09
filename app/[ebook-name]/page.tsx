@@ -20,6 +20,10 @@ const PDF_MAP = {
     url: "https://29cf64c7o6.ufs.sh/f/Sn1r0iGFGkx7ajwiqeRHvGjbKOsR0kac2nU4qFDJgdprZeI8", 
     title: "Choosing an Embedding Model",
   },
+  "ultimate-guide-chunking": {
+    url: "https://kx.com/resources/ebook/the-ultimate-guide-to-chunking/", 
+    title: "The Ultimate Guide to Chunking",
+  },
 }
 
 export default function PDFViewer() {

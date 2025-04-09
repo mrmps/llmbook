@@ -27,11 +27,12 @@ const books = [
     url: "https://kx.com/resources/ebook/the-ultimate-guide-to-choosing-embedding-models-for-ai-applications/"
   },
   {
-    title: "Efficient Text Chunking",
+    title: "The Ultimate Guide to Chunking",
     author: "Michael Ryaboy",
-    color: "#6B4226",
+    color: "#5D8AA8",
     textColor: "#FFFFFF",
-    active: false,
+    active: true,
+    url: "https://kx.com/resources/ebook/the-ultimate-guide-to-chunking/"
   },
   {
     title: "Multi-Stage Reranking",
